@@ -5,6 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: rgb(198, 201, 240);
 }
 
 .parent {
@@ -12,6 +13,8 @@ body,
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: auto;
+  flex-wrap: wrap;
 }
 
 .novel-name {
@@ -19,7 +22,25 @@ body,
 }
 
 .novel {
-  width: 30vh;
-  border: 1rem;
-  border-color: #00ffff;
+  width: 50vh;
+  border: 1rem solid #ff0000;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.chapter {
+  font-size: 4rem;
+}
+
+.header {
+  font-size: 10rem;
+  text-align: center;
+  padding: 1rem;
+  border: 1rem solid #ff0000;
+  margin-left: 69rem;
+  margin-right: 69rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
 }

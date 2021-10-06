@@ -5,7 +5,8 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: rgb(198, 201, 240);
+  background-color: rgb(211, 221, 213);
+  font-family: "Roboto Slab", serif;
 }
 
 .parent {
@@ -19,26 +20,31 @@ body,
 
 .novel-name {
   font-size: 5rem;
+  padding-bottom: 2rem;
 }
 
 .novel {
   width: 50vh;
-  border: 1rem solid #ff0000;
+  border: 1rem solid #d16b6b;
   padding-top: 2rem;
-  padding-bottom: 6rem;
+  padding-bottom: 10rem;
   text-align: center;
   margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  box-shadow: 10px 10px 8px #000000;
 }
 
 .chapter {
   font-size: 4rem;
+  padding: ;
 }
 
 .header {
   font-size: 10rem;
   text-align: center;
   padding: 1rem;
-  border: 1rem solid #ff0000;
+  border: 1rem solid #d16b6b;
   margin-left: 69rem;
   margin-right: 69rem;
   margin-top: 5rem;

@@ -12,7 +12,7 @@ body {
   background-color: rgb(211, 221, 213);
 }
 
-.parent {
+.card-parent {
   font-size: 10px;
   display: flex;
   justify-content: space-around;
@@ -29,6 +29,7 @@ body {
 .card-novel {
   width: 50vh;
   border: 1rem solid #d16b6b;
+  border-radius: 1.5rem;
   padding-top: 2rem;
   padding-bottom: 10rem;
   text-align: center;
@@ -43,6 +44,7 @@ body {
   text-align: center;
   padding: 1rem;
   border: 1rem solid #d16b6b;
+  border-radius: 1.5rem;
   margin-left: 69rem;
   margin-right: 69rem;
   margin-top: 5rem;
@@ -50,10 +52,21 @@ body {
   box-shadow: 10px 10px 8px #000000;
 }
 
-#ze-tian:hover {
-  transform: scale(1.1);
+.card-header:hover {
 }
 
-#ze-tian {
-  transition: all 0.5s;
+#card-row-1:hover {
+  transform: scale(1.08) translateY(-10%) translateX(10%);
+  transition: all 0.4s;
+}
+
+#card-row-2:hover {
+  transform: rotate(3600deg) scale(0.1) translateY(-100%) translateX(100%);
+  transition: all 3s;
+}
+
+#card-row-3:hover {
+  opacity: 0;
+  transform: rotate(360deg) scale(0.1) translateY(100%) translateX(100%);
+  transition: all 3s;
 }

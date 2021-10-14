@@ -50,6 +50,21 @@ body {
   margin-top: 5rem;
   margin-bottom: 1rem;
   box-shadow: 10px 10px 8px #000000;
+  animation: colorRotate 6s linear 0s infinite;
+}
+
+.card-link {
+  font-size: 10rem;
+  text-align: center;
+  padding: 1rem;
+  border: 1rem solid #d16b6b;
+  border-radius: 1.5rem;
+  margin-left: 69rem;
+  margin-right: 69rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  box-shadow: 10px 10px 8px #000000;
+  animation: link-bounce 2s infinite;
 }
 
 .card-header:hover {
@@ -61,7 +76,7 @@ body {
 }
 
 #card-row-2:hover {
-  transform: rotate(3600deg) scale(0.1) translateY(-100%) translateX(100%);
+  transform: rotate(3600deg) scale(0.1);
   transition: all 3s;
 }
 
@@ -69,4 +84,42 @@ body {
   opacity: 0;
   transform: rotate(360deg) scale(0.1) translateY(100%) translateX(100%);
   transition: all 3s;
+}
+
+.card-header:hover {
+  transform: skew(10deg) scale(1.1);
+  transition: all 0.3s;
+}
+
+.card-link:hover {
+}
+
+@keyframes link-bounce {
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-40deg);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes colorRotate {
+  0% {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
 }

@@ -61,17 +61,19 @@ body {
   border-radius: 1.5rem;
   margin-left: 69rem;
   margin-right: 69rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-bottom: 1rem;
   box-shadow: 10px 10px 8px #000000;
   animation: link-bounce 2s infinite;
 }
 
-.card-header:hover {
+.card-image {
+  width=300rem 
+  height=400rem
 }
 
 #card-row-1:hover {
-  transform: scale(1.08) translateY(-10%) translateX(10%);
+  transform: scale(1.08);
   transition: all 0.4s;
 }
 
@@ -92,6 +94,7 @@ body {
 }
 
 .card-link:hover {
+  transform: translateY(-5rem);
 }
 
 @keyframes link-bounce {
@@ -113,13 +116,51 @@ body {
   10% {
     color: #0099ff;
   }
+  30% {
+    transform: translateX(-40vh);
+  }
   50% {
     color: #00ff00;
+  }
+  70% {
+    transform: translateX(40vh);
   }
   75% {
     color: #ff3399;
   }
+
   100% {
     color: #6666ff;
   }
+}
+
+@media all and (max-width: 390px) {
+
+  body{
+    background-color: #e5e6c6;
+  }
+
+  .card-image{
+    padding: 10px;
+    border-radius: 2rem;
+  }
+
+  .card-header{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transition: ;
+  }
+
+  #card-row-3:hover{
+    transform: rotate(360deg) scale(0.1);
+  }
+
+}
+  
+@media (max-width: 1080px;){
+
+body{
+  background-color: rgb(107, 54, 54);
+}
+
 }

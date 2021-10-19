@@ -68,8 +68,8 @@ body {
 }
 
 .card-image {
-  width=300rem 
-  height=400rem
+  width: 30rem;
+  height: 40rem;
 }
 
 #card-row-1:hover {
@@ -135,49 +135,47 @@ body {
 }
 
 @media (max-width: 1080px) {
-
-body{
-  background-color: rgb(255, 221, 221);
-}
-
-.card-header{
-  margin-left: 20rem;
-  margin-right: 20rem;
-}
-
-@keyframes colorRotate {
-  0% {
-    color: #6666ff;
-  }
-  10% {
-    color: #0099ff;
-  }
-  30% {
-    transform: translateX(15vh);
-  }
-  50% {
-    color: #00ff00;
-  }
-  70% {
-    transform: translateX(-15vh);
-  }
-  75% {
-    color: #ff3399;
+  body {
+    background-color: rgb(255, 221, 221);
   }
 
-  100% {
-    color: #6666ff;
+  .card-header {
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
-}
 
-.card-link{
-  margin-left: 10rem;
-  margin-right: 10rem;
-}
+  @keyframes colorRotate {
+    0% {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    30% {
+      transform: translateX(15vh);
+    }
+    50% {
+      color: #00ff00;
+    }
+    70% {
+      transform: translateX(-15vh);
+    }
+    75% {
+      color: #ff3399;
+    }
+
+    100% {
+      color: #6666ff;
+    }
+  }
+
+  .card-link {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
 }
 
 @media all and (max-width: 390px) {
-
   @keyframes colorRotate {
     0% {
       color: #6666ff;
@@ -195,29 +193,28 @@ body{
     75% {
       color: #ff3399;
     }
-  
+
     100% {
       color: #6666ff;
     }
   }
 
-  body{
+  body {
     background-color: #e5e6c6;
   }
 
-  .card-image{
+  .card-image {
     padding: 10px;
     border-radius: 2rem;
   }
 
-  .card-header{
+  .card-header {
     margin-left: 1rem;
     margin-right: 1rem;
     transition: ;
   }
 
-  #card-row-3:hover{
+  #card-row-3:hover {
     transform: rotate(360deg) scale(0.1);
   }
 }
-  

@@ -13,7 +13,7 @@ body {
 }
 
 .card-parent {
-  font-size: 10px;
+  font-size: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
